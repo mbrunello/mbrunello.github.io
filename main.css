@@ -5,7 +5,7 @@ body {
 }
 
 .header {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-5/htmlcss1-img_canyon.jpeg");
+  background-image: url("https://images3.alphacoders.com/223/22319.jpg");
   background-position: center center;
   background-size: cover;
   height: 400px;
@@ -65,24 +65,10 @@ p {
   width: 60%;
 }
 
-.partner {
-  padding: 20px;
-  text-align: center;
-  margin: 0 auto;
-  border-bottom: 1px solid #eeeeee;
-}
 
-.partner img {
-  position: relative;
-  top: 6px;
-}
-
-.aa-logo {
-  padding-left: 6px;
-}
 
 .main {
-  background: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-5/shards.png");
+  background: black;
   margin: 0;
   padding: 40px;
 }
@@ -97,10 +83,5 @@ p {
   padding: 40px 0px;
   margin: 5px 0px;
   text-align: center;
-}
-
-.prop h2 {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 24px;
 }
 
