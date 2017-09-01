@@ -2,14 +2,12 @@
     $name = $_POST['name'];
     $email = $_POST['email'];
     $message = $_POST['message'];
-    $from = 'From: TangledDemo'; 
+    $from = 'From: TestGitHub'; 
     $to = 'marcelbrunello@gmail.com'; 
     $subject = 'Hello';
 
     $body = "From: $name\n E-Mail: $email\n Message:\n $message";
-?>
-    
-    <?php
+
 if ($_POST['submit']) {
     if (mail ($to, $subject, $body, $from)) { 
         echo '<p>Your message has been sent!</p>';
