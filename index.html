@@ -1,26 +1,19 @@
- <!DOCTYPE html>
-
+<!DOCTYPE html>
 <html>
-   
-   <head>
-      <title>TEST</title>
-   </head>
-   
-   <body>
-    
-    <h1>TEST!!!</h1>
- 
-    <h2>JavaScript in Body</h2>
+<body>
 
-<p id="demo">A Paragraph.</p>
+<h2>Send e-mail to someone@example.com:</h2>
 
-<button type="button" onclick="myFunction()">Try it</button>
+<form action="mailto:someone@example.com" method="post" enctype="text/plain">
+Name:<br>
+<input type="text" name="name"><br>
+E-mail:<br>
+<input type="text" name="mail"><br>
+Comment:<br>
+<input type="text" name="comment" size="50"><br><br>
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</form>
 
-<script>
-function myFunction() {
-    document.getElementById("demo").innerHTML = "Paragraph changed.";
-}
-</script>
- </body>
-
+</body>
 </html>
