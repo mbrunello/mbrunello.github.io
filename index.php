@@ -1,11 +1,10 @@
-    <?php
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $message = $_POST['message'];
-    $from = 'From: TestGitHub'; 
-    $to = 'marcelbrunello@gmail.com'; 
-    $subject = 'Hello';
+<!DOCTYPE html>
+<html>
+<body>
 
-    $body = "From: $name\n E-Mail: $email\n Message:\n $message";
-?>
-    
+<h1>My first PHP page</h1>
+
+<?php echo "Hello World!" ?> 
+
+</body>
+</html>
